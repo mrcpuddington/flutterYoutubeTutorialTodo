@@ -31,8 +31,8 @@ class AppTheme {
     brightness: Brightness.light,
 
     primary: AppColors.primary,
-    onPrimary: Colors.white,
-    primaryContainer: Color(0xFFEDEDED),
+    onPrimary: Color(0xFFEDEDED),
+    primaryContainer: Colors.white,
     onPrimaryContainer: AppColors.onLight,
 
     secondary: AppColors.accent,
@@ -40,7 +40,7 @@ class AppTheme {
     secondaryContainer: Color(0xFFDFF5E3),
     onSecondaryContainer: Color(0xFF0F2D16),
 
-    surface: AppColors.surfaceLight,
+    surface: AppColors.backgroundLight,
     onSurface: AppColors.onLight,
 
     // Material 3 uses these a lot for elevation/layers
